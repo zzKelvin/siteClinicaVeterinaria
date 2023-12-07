@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f9b7ff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    border: solid 1px;
+}
+.menu {
+    width: 20%;
+    background-color: rgb(49, 49, 49);
+    padding: 10px 20px 0px;
+    font-size: 18px
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+    border-bottom: solid 1px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+a {
+    color: #f9b7ff;
+}
+.listaSeta {
+    list-style-type: none; 
+    padding: 0; 
+    color: #f9b7ff;
+}
+.listaSeta li {
+    margin-bottom: 5px; 
+}
+.listaSeta li::before {
+    content: '→ '; 
+    padding-right: 5px; 
+}
+tr td{
+    text-align: center;
+    font-size: 18px;
+    border-spacing: 20px;
+    padding: 5px
+}
+tr th{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+}
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
